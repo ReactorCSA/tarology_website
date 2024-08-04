@@ -25,11 +25,35 @@
 
 #lottieBackground #backgroundContainer #backgroundWavesMoon {
   position: absolute;
-  top: 0;
+  top: -30px;
   left: 50%;
   height: 110px;
   width: 110px;
   transform: translate3d(-50%, -50%, 0);
+  z-index: -1;
+}
+
+#lottieBackground #backgroundContainer #backgroundWavesStars {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  min-width: 800px;
+}
+
+#lottieBackground #backgroundContainer #backgroundWavesRockLeft {
+  position: absolute;
+  bottom: 98%;
+  left: 0;
+  width: 30%;
+  z-index: -1;
+}
+
+#lottieBackground #backgroundContainer #backgroundWavesRockRight {
+  position: absolute;
+  bottom: 98%;
+  right: 0;
+  width: 30%;
   z-index: -1;
 }
 

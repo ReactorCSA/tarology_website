@@ -1,5 +1,8 @@
 import { lottieConfig } from './LottieBackground.model';
 import backgroundMoon from './images/Moon.png';
+import backgroundStars from './images/Stars.png';
+import backgroundRockLeft from './images/RockLeft.png';
+import backgroundRockRight from './images/RockRight.png';
 import './LottieBackground.styles.css';
 
 const lottieWaves = import('../../../lottie/background/waves.json');
@@ -16,6 +19,9 @@ class LottieBackground extends HTMLElement {
       <div id="lottieBackground">
         <div id="backgroundContainer">
           <img src="${backgroundMoon}" id="backgroundWavesMoon" alt="" />
+          <img src="${backgroundStars}" id="backgroundWavesStars" alt="" />
+          <img src="${backgroundRockLeft}" id="backgroundWavesRockLeft" alt="" />
+          <img src="${backgroundRockRight}" id="backgroundWavesRockRight" alt="" />
           <div id="backgroundWaves"></div>
         </div>
         <div id="backgroundContainer">
