@@ -1,0 +1,17 @@
+#backgroundGradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, #92A0FF 0%, #444FB2 60%, #221D5F 100%);
+  z-index: -1;
+  overflow: hidden;
+}
+
+#backgroundGradient #backgroundStars {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-width: 1200px;
+}

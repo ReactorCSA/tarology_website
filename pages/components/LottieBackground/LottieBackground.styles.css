@@ -1,0 +1,39 @@
+#lottieBackground {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#lottieBackground #backgroundContainer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  line-height: 0;
+  z-index: 0;
+}
+
+#lottieBackground #backgroundContainer #backgroundWaves {
+  width: 100%;
+  min-width: 1200px;
+}
+
+#lottieBackground #backgroundContainer #backgroundWavesMoon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 110px;
+  width: 110px;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -1;
+}
+
+#lottieBackground #backgroundContainer #backgroundWoman {
+  width: 100%;
+  min-width: 1200px;
+}

@@ -1,0 +1,25 @@
+#buttonContainer {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buttonContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px #00000080;
+  transition: box-shadow .2s ease-in-out, opacity .2s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+#buttonContainer a:hover {
+  box-shadow: 1px 1px 5px #00000000;
+  opacity: 0.8;
+}

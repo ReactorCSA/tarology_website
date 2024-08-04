@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Philosopher-Bold';
+  src: url('../fonts/Philosopher-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('../fonts/Ubuntu-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: Philosopher-Bold, serif;
+  font-size: 74px;
+  margin: 0;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Philosopher-Bold, serif;
+  font-size: 64px;
+  margin: 0;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: Philosopher-Bold, serif;
+  font-size: 46px;
+  margin: 0;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-family: Philosopher-Bold, serif;
+  font-size: 38px;
+  margin: 0;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: Ubuntu-Regular, serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 32px 32px;
+}
+
+.main-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 73px;
+  margin-bottom: 55px;
+}
+
+.content-block {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.w-480 {
+ width: 480px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-500 {
+  margin-bottom: 500px;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  .main-text {
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+  }
+
+  .content-block {
+    gap: 12px;
+    margin-top: 36px;
+  }
+
+  .w-480 {
+    width: 100%;
+  }
+
+  .mb-500 {
+    margin-bottom: 300px;
+  }
+}

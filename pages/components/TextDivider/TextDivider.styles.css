@@ -1,0 +1,26 @@
+#dividerContainer {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+#dividerContainer #dividerStickLeft {
+  position: absolute;
+  width: 45%;
+  left: 0;
+}
+
+#dividerContainer #dividerStickRight {
+  position: absolute;
+  width: 45%;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+@media (max-width: 640px) {
+  #dividerContainer {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+}
